@@ -34,8 +34,8 @@ final class Car
 	public Engine getEngine()
 	{
 		Engine eng2=new Engine();
-		eng2.setName(eng.getName());
 		eng2.setSpeed(eng.getSpeed());
+		eng2.setName(eng.getName());
 		return eng2;
 	}
 	@Override

@@ -1,6 +1,6 @@
 package methodsof.objectclass;//shallow cloaning
 
-class Cat
+class Cat implements Cloneable
 {
 	int j;
 	Cat(int j)

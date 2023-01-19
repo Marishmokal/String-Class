@@ -19,7 +19,7 @@ public int hashCode()
 }
 public static void main(String args[])
 {
-	HashC s=new HashC("ram",101);
+	HashC s=new HashC("ram",1234);
 	HashC s1=new HashC("ram",102);
 	
 	System.out.println(s.hashCode());

@@ -27,7 +27,7 @@ public static void main(String args[])
 	
 	//copyOf();
 	Integer[]c= {10,20,30,45,55,50};
-	System.out.println(	Arrays.toString( Arrays.copyOf(c,12)));//[10, 20, 30, 45, 55, 50, null, null, null, null, null, null]
+	System.out.println(	Arrays.toString( Arrays.copyOf(c,6)));//[10, 20, 30, 45, 55, 50]
 	
 	
 	String[]d= {"vaibhav","pranav","marish","shree","rushikesh"};//[vaibhav, pranav, marish, shree, rushikesh, null]

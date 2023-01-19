@@ -1,4 +1,4 @@
-package methodsof.objectclass;
+package methodsof.objectclass;//getClass()
 
 public class GetClass {
 String name;
